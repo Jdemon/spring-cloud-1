@@ -1,5 +1,10 @@
 server:
   port: 10000
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'    
 spring:
   application:
     name: config-server

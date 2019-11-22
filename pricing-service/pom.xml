@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>th.co.orcsoft.pricing</groupId>
-	<artifactId>menu-service</artifactId>
+	<artifactId>price-service</artifactId>
 	<version>1.0</version>
 	<name>pricing-service</name>
 	<description>Orcsoft Internal Training </description>

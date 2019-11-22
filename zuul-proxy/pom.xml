@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>th.co.orcsoft.zuul</groupId>
-	<artifactId>menu-service</artifactId>
+	<artifactId>zuul-proxy</artifactId>
 	<version>1.0</version>
 	<name>zuul-proxy</name>
 	<description>Orcsoft Internal Training </description>
