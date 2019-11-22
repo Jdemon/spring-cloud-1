@@ -8,12 +8,17 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:9999/eureka/      
+      defaultZone: http://localhost:9999/eureka/
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
 hawaiian_pizza:
   price: 300
 xiaolongbao:
   price: 200
 kimchi:
-  price: 50
+  price: 500
 oolong: 
   price: 30
