@@ -1,0 +1,19 @@
+server:
+    port: 8082
+    servlet:
+     context-path: /price 
+spring:
+  application:
+    name: pricing-service
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9999/eureka/      
+hawaiian_pizza:
+  price: 300
+xiaolongbao:
+  price: 200
+kimchi:
+  price: 50
+oolong: 
+  price: 30
