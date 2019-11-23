@@ -43,13 +43,13 @@ public class MenuController {
 	
 	
 	@GetMapping()
-	//@HystrixCommand
-	@HystrixCommand(
-            fallbackMethod = "fallbackGetAll",
-            commandProperties = {
-                    @HystrixProperty(name = "execution.isolation.thread.timeoutInMilliseconds", value = "5000")
-            }
-    )
+	@HystrixCommand
+//	@HystrixCommand(
+//            fallbackMethod = "fallbackGetAll",
+//            commandProperties = {
+//                    @HystrixProperty(name = "execution.isolation.thread.timeoutInMilliseconds", value = "5000")
+//            }
+//    )
 	public List<MenuAPI> findAllMenu(){
 		
 		randomlyRunLong();
